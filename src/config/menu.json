@@ -1,0 +1,146 @@
+{
+  "main": [
+    {
+      "name": "Бидний тухай",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Мэндчилгээ",
+          "url": "/about"
+        },
+
+        {
+          "name": "Эрхэм зорилго",
+          "url": "/mission"
+        },
+
+        {
+          "name": "Сургалтын орчин",
+          "url": "/environment"
+        },
+
+        {
+          "name": "Багш нар",
+          "url": "/teachers"
+        }
+      ]
+    },
+    {
+      "name": "Сургалт",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Цөм хөтөлбөр",
+          "url": "/career"
+        },
+
+        {
+          "name": "Cambridge early",
+          "url": "/integrations"
+        },
+
+        {
+          "name": "Cambridge primary",
+          "url": "/pricing"
+        },
+
+        {
+          "name": "Cambridge Lower Secondary",
+          "url": "/elements"
+        },
+        {
+          "name": "Cambridge Upper Secondary",
+          "url": "/changelog"
+        },
+        {
+          "name": "Cambridge Advanced",
+          "url": "/terms-and-conditions"
+        }
+      ]
+    },
+    {
+      "name": "Сургалтын онцлог",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Хос хэл",
+          "url": "/features"
+        },
+
+        {
+          "name": "Steam ICT Coding",
+          "url": "/steam"
+        },
+
+        {
+          "name": "Менторшип, карьер зөвлөгөө",
+          "url": "/mentor"
+        },
+
+        {
+          "name": "Хөгжүүлэх сургалтууд",
+          "url": "/feature"
+        },
+        {
+          "name": "Хувь хүний хүмүүжил төлөвшил",
+          "url": "/terms-and-conditions"
+        },
+        {
+          "name": "Хүүхдийн оролцоонд суурилсан сургалт",
+          "url": "/conditions"
+        }
+      ]
+    },
+    {
+      "name": "Мэдээлэл",
+      "url": "/blog"
+    },
+    {
+      "name": "Үйл ажиллагаа",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Жилийн календарчилсан төлөвлөгөө",
+          "url": "/how-it-works"
+        },
+
+        {
+          "name": "Автобус үйлчилгээ",
+          "url": "/bus"
+        },
+
+        {
+          "name": "Цайны газар",
+          "url": "/cafeteria"
+        }
+      ]
+    },
+    {
+      "name": "Холбоо барих",
+      "url": "/contact"
+    }
+  ],
+
+  "footer": [
+    {
+      "name": "Бидний тухай",
+      "url": "/about"
+    },
+    {
+      "name": "Холбоо барих",
+      "url": "/contact"
+    },
+    {
+      "name": "Elements",
+      "url": "/elements"
+    },
+    {
+      "name": "Changelog",
+      "url": "/changelog"
+    }
+  ]
+}

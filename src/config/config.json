@@ -1,0 +1,50 @@
+{
+  "site": {
+    "title": "Pinwheel Astro",
+    "base_url": "https://pinwheel-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "147",
+    "logo_height": "31",
+    "logo_text": "Pinwheel"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 100,
+    "blog_folder": "blog"
+  },
+
+  "call_to_action": {
+    "title": "2024-2025 оны",
+    "title2": "Сургууль цэцэрлэгийн элсэлт",
+    "description": "Baga Tenger International School, also known as BTIS, is an international school in Mongolia.",
+    "button": {
+      "label": "Элсэлтын бүртгэл",
+      "link": "https://bagatengerschool.edu.mn"
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  },
+
+  "params": {
+    "footer_description": "Baga Tenger International School, also known as BTIS, is an international school in Mongolia.",
+    "email": "info@bagatengerschool.edu.mn",
+    "location": "Баянзүрх дүүрэг, 11-р хороо, Богд Хан уулын Бага тэнгэрийн ам , Ulaanbaatar, Mongolia",
+    "phone": "+976 7270-4444",
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024 Designed & Developed by [sobri](https://temuujin.vercel.app)"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "pinwheel astro"
+  }
+}
