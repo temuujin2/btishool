@@ -4,39 +4,6 @@ const { counter } = Astro.props;
 
 <div class="counter mt-16">
 
-  <div class="container grid md:hidden">
-    <div class="row">
-      <div class="mx-auto text-center lg:col-6 mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
-        ДЭЛХИЙД ҮНЭЛЭГДЭХ ОЮУНЛАГ МОНГОЛ ИРГЭДИЙГ БЭЛТГЭДЭГ ҮНДЭСНИЙ ШИЛДЭГ СУРГУУЛЬ БОЛНО.
-      </div>
-      
-    </div>
-    <div class="row">
-      <div class="mx-auto text-center lg:col-6 mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
-        Хүндлэл, хүнлэг энэрэнгүй сэтгэл​​ Хариуцлага, ёс суртахуун​​ Шинжлэх ухаанч, бүтээлч хандлага​​ Тасралтгүй суралцах чадвар ба өсөлтөт сэтгэлгээ​​ Нэгдмэл, хамтын ажиллагаа
-      </div>
-      
-    </div>
-    <div class="row">
-      <div class="mx-auto text-center lg:col-6 mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
-        Хамтдаа хамгийн сайнаараа...
-      </div>
-      
-    </div>
-    
-  </div>
-
-  <div class="flex justify-around mb-4 gap-4 row mx-0  md:flex xs:hidden">
-    <div class="w-4/12 rounded-[20px] bg-white px-10 shadow-lg lg:py-10  sm:col-6 md:col-3 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
-      ДЭЛХИЙД ҮНЭЛЭГДЭХ ОЮУНЛАГ МОНГОЛ ИРГЭДИЙГ БЭЛТГЭДЭГ ҮНДЭСНИЙ ШИЛДЭГ СУРГУУЛЬ БОЛНО.
-    </div>
-    <div class="w-4/12 rounded-[20px] bg-white px-10 shadow-lg lg:py-10  sm:col-6 md:col-3 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
-      Хүндлэл, хүнлэг энэрэнгүй сэтгэл​​ Хариуцлага, ёс суртахуун​​ Шинжлэх ухаанч, бүтээлч хандлага​​ Тасралтгүй суралцах чадвар ба өсөлтөт сэтгэлгээ​​ Нэгдмэл, хамтын ажиллагаа
-    </div>
-    <div class="w-4/12 rounded-[20px] bg-white px-10 shadow-lg lg:py-10  sm:col-6 md:col-3 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
-      Хамтдаа хамгийн сайнаараа...
-    </div>
-  </div>
   <div class="row mx-0 rounded-[20px] bg-white px-10 shadow-lg lg:py-10">
     {
       counter.map((item: any) => (

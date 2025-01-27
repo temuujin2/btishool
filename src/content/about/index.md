@@ -15,6 +15,7 @@ buttons:
 
     enable: true
 
+
 # counter
 counter:
   - name: "Бага анги"
@@ -67,26 +68,99 @@ features:
 
 ## members
 members:
-  title: This is who we are
+  title: Бага ангийн багш нар
+  title2: Дунд ангийн багш нар
+  title3: Ахлах ангийн багш нар
   description: achieve academic success by promoting independent learning, innovation, critical thinking, and research. develop social skills, empathy, integrity, and leadership qualities. engage in an intercultural, multi-lingual global community. embrace service in an inclusive interconnected world. adopt a healthy and active lifestyle.
   member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
+    - name: М.ЭРДЭНЭЦЭЦЭГ
+      field: 1-р ангийн багш
+      image: "/images/users/user-1-1.png"
+    - name: Б. ГАНСАЙХАН
+      field: 1-р ангийн багш
+      image: "/images/users/user-1-1.png"
+    - name: Б. БЯМБАЖАРГАЛ
+      field: 1-р ангийн багш
+      image: "/images/users/user-1-2.png"
+    - name: Б. ЭРДЭНЭЧИМЭГ
+      field: 2-р ангийн багш
       image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
+    - name: А. МИЧИДМАА
+      field: 2-р ангийн багш
       image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
+    - name: ЖАРГАЛСАЙХАН
+      field: 2-р ангийн багш
+      image: "/images/users/user-4.png"
+    - name: Х. МЯГМАРНАРАН
+      field: 3-р ангийн багш
       image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
+    - name: Н. СОЛОНГО
+      field: 3-р ангийн багш
+      image: "/images/users/user-6.png"
+    - name: Б. СИЙЛЭГМАА
+      field: 4-р ангийн багш
+      image: "/images/users/user-7.png"
+    - name: Г. САРАНГЭРЭЛ
+      field: 4-р ангийн багш
+      image: "/images/users/user-8.png"
+    - name: Н. АЛТАНТУЯА
+      field: 4-р ангийн багш
+      image: "/images/users/user-9.png"
+    - name: О. БАДАМ
+      field: 5-р ангийн багш
+      image: "/images/users/user-10.png"
+    - name: Б. НЯМСҮРЭН
+      field: 5-р ангийн багш
+      image: "/images/users/user-11.png"
+    - name: Б. ЭНХТУЯА
+      field: 5-р ангийн багш
+      image: "/images/users/user-12.png"
+  member_list2:
+    - name: Б. ОТГОНШҮР
+      field: 6-р ангийн багш
+      image: "/images/users/user-13.png"
+    - name: Э. ОДГЭРЭЛ
+      field: 6-р ангийн багш
+      image: "/images/users/user-14.png"
+    - name: Б. БУЯНТ
+      field: 6-р ангийн багш
+      image: "/images/users/user-15.png"
+    - name: Ц. НОРПИЛ
+      field: 7-р ангийн багш
+      image: "/images/users/user-16.png"
+    - name: Б. УУГАНЦЭЦЭГ
+      field: 7-р ангийн багш
+      image: "/images/users/user-17.png"
+    - name: О. ДОРЖГОТОВ
+      field: 27-р ангийн багш
+      image: "/images/users/user-18.png"
+    - name: Ц. АРИУНЦЭЦЭГ
+      field: 8-р ангийн багш
+      image: "/images/users/user-19.png"
+    - name: Д. ГАНСАЙХАН
+      field: 8-р ангийн багш
+      image: "/images/users/user-20.png"
+    - name: Ч. АМАРЖАРГАЛ
+      field: 9-р ангийн багш
+      image: "/images/users/user-21.png"
+    - name: М. СЭРСЭНДАГВА
+      field: 9-р ангийн багш
+      image: "/images/users/user-22.png"
+  member_list3:
+    - name: Б. ГАНБОЛД
+      field: 10-р ангийн багш
+      image: "/images/users/user-23.png"
+    - name: Б. НАРАНГЭРЭЛ
+      field: 10-р ангийн багш
+      image: "/images/users/user-24.png"
+    - name: А. БЯМБАА
+      field: 11-р ангийн багш
+      image: "/images/users/user-25.png"
+    - name: Ч. ХИШИГДЭЛГЭР
+      field: 11-р ангийн багш
+      image: "/images/users/user-26.png"
+    - name: Л. УРНАА
+      field: 12-р ангийн багш
+      image: "/images/users/user-27.png"
 ---
 Хүндлэн дээдлэх, хайрлан хямгадах, өвлүүлэн уламжлуулах монгол ухаанаар хүмүүжиж төлөвшсөн, ур чадварт суурилсан дэлхийн түвшний боловсролыг эзэмшсэн, хүн төрөлхтний сайн сайхны төлөө эерэг өөрчлөлтийг авчрах манлайлагчдыг бэлтгэнэ.

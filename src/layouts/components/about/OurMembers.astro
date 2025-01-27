@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 const {
-  members: { title, description, member_list },
+  members: { title, title2, title3, description, member_list, member_list2, member_list3 },
 } = Astro.props;
 ---
 
@@ -20,6 +20,67 @@ const {
         <div class="row">
           {
             member_list.map((item: any) => (
+              <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
+                <div class="member-avatar inline-flex justify-center">
+                  <Image
+                    height={112}
+                    width={112}
+                    class="rouded-full h-28 w-28"
+                    src={item.image}
+                    alt=""
+                  />
+                </div>
+                <div class="mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
+                  <h5 class="font-primary">{item.name}</h5>
+                  <p class="mt-1.5">{item.field}</p>
+                  <p class="mt-1.5">{item.name2}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <div class="mt-20"></div>
+        <div class="mx-auto text-center lg:col-6">
+          <h2>{title2}</h2>
+        </div>с
+      </div>
+    </div>
+    
+    <div class="row mt-12 justify-center">
+      <div class="lg:col-10">
+        <div class="row">
+          {
+            member_list2.map((item: any) => (
+              <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
+                <div class="member-avatar inline-flex justify-center">
+                  <Image
+                    height={112}
+                    width={112}
+                    class="rouded-full h-28 w-28"
+                    src={item.image}
+                    alt=""
+                  />
+                </div>
+                <div class="mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
+                  <h5 class="font-primary">{item.name}</h5>
+                  <p class="mt-1.5">{item.field}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <div class="mt-20"></div>
+        <div class="mx-auto text-center lg:col-6">
+          <h2>{title3}</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-12 justify-center">
+      <div class="lg:col-10">
+        <div class="row">
+          {
+            member_list3.map((item: any) => (
               <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
                 <div class="member-avatar inline-flex justify-center">
                   <Image
